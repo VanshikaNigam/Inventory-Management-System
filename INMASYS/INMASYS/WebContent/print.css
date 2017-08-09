@@ -1,0 +1,11 @@
+@CHARSET "ISO-8859-1";
+<style media="screen">
+  .noPrint{ display: block; }
+  .yesPrint{ display: block !important; }
+</style>
+
+<style media="print">
+  .noPrint{ display: none; }
+ .menu{display:none;}
+  .yesPrint{ display: block !important; }
+</style>
